@@ -18,7 +18,7 @@ class Waiter
   end
   
   def meals
-    Meal.all.select{|meals| meal.waiter}
+    Meal.all.select{|meals| meals.waiter}
   end
     
     
